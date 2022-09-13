@@ -75,6 +75,7 @@ dojo = {
 
 def info_dojo(diccionario):
     for i in diccionario:
+        print("\n")
         print(str(len(diccionario[i])), i) #largo del diccionario con la clave
         for j in diccionario[i]:
             print(j)
